@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply font-Poppins scroll-smooth;
+}
+ body{
+  background: #f8f8f8;
+ }
+
+.btn-primary{
+  @apply bg-cyan-600 font-semibold text-white md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2;
+}
+
+.aboutImg::after{
+  @apply content-[''] w-full top-0 left-0 rounded-xl rotate-12 h-full absolute bg-gray-700 -z-10;
+}
+
+input,
+textarea{
+  @apply bg-white outline-none p-3 rounded-lg
+}
+
+::placeholder{
+  @apply text-lg
+}
+
+::selection{
+  @apply bg-cyan-600
+}
