@@ -10,11 +10,11 @@ import { Pagination } from "swiper";
 import project1 from "../assets/images/project1.png";
 import project2 from "../assets/images/project2.png";
 import project3 from "../assets/images/project3.png";
-import project4 from "../assets/images/project4.jpg";
-import project5 from "../assets/images/project5.png";
+import project4 from "../assets/images/project4.png";
 import land1 from "../assets/images/land.png";
 import land2 from "../assets/images/land1.png";
 import land3 from "../assets/images/land2.png";
+import land4 from "../assets/images/land3.png";
 import { Dialog } from "@mui/material";
 
 // ... (import statements)
@@ -88,6 +88,15 @@ const Project = () => {
             </Button>
             <Dialog open={openStates[2]} onClose={() => handleClose(2)} maxWidth={""}> {/* Change to openStates[2] */}
               <img src={land3} alt="" />
+            </Dialog>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <Button onClick={() => handleOpen(2)}> {/* Change to handleOpen(2) */}
+              <img src={project4} alt="" />
+            </Button>
+            <Dialog open={openStates[2]} onClose={() => handleClose(2)} maxWidth={""}> {/* Change to openStates[2] */}
+              <img src={land4} alt="" />
             </Dialog>
           </SwiperSlide>
 
