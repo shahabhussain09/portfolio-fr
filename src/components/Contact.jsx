@@ -19,11 +19,11 @@ const Contact = () => {
 
   const contact_info = [
     {
-      logo: 'mail' , text: 'shahsomething@gmail.com'
+      logo: 'mail' , text: 'ik0387058@gmail.com'
     },
 
     {
-      logo: 'logo-whatsapp' , text: '03336667788'
+      logo: 'logo-whatsapp' , text: '03275732486'
     },
 
     {

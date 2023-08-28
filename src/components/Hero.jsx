@@ -15,7 +15,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen py-5 pt-16 flex md:flex-row flex-col items-center  "
+      className="min-h-screen py-5 pt-16 flex md:flex-row flex-col items-center  gap-6 "
     >
       <div className="flex-1 flex items-center justify-center h-full">
         <img src={hero} alt="" className="md:w-[80%] h-full object-cover" />
